@@ -1,4 +1,4 @@
-const mongoose = cpquire( "mongoose");
+const mongoose = require( "mongoose");
 
 const CartSchema = new mongoose. Schema({
     UserID: { type: String, required: true},
