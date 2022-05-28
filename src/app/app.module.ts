@@ -13,6 +13,10 @@ import { AccountPageComponent } from './account-page/account-page.component';
 import { LoginPopupComponent } from './base-components/login-popup/login-popup.component';
 import { SigninPopupComponent } from './base-components/signin-popup/signin-popup.component';
 
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { ImgSliderComponent } from './base-components/img-slider/img-slider.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,13 +27,15 @@ import { SigninPopupComponent } from './base-components/signin-popup/signin-popu
     ProductCardComponent,
     AccountPageComponent,
     LoginPopupComponent,
-    SigninPopupComponent
+    SigninPopupComponent,
+    ImgSliderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

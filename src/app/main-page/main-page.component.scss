@@ -3,7 +3,6 @@
 
 .container {
     width: 100%;
-    padding: 12px;
 }
 
 button {
@@ -13,13 +12,16 @@ button {
 }
 
 mat-toolbar {
-    padding-top: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: rgb(255, 255, 255);
     color: black;
 
 
     & .mat-display-1 {
-        margin-left: 24px;
+        margin-left: 64px;
+        margin-bottom: 0;
+        color: black;
     }
 
     & button {
@@ -28,7 +30,7 @@ mat-toolbar {
     }
 
     & mat-form-field {
-        width: 35%;
+        width: 30%;
     }
 
     & ._catalogue_btn {
@@ -55,10 +57,4 @@ mat-toolbar {
         border: none;
         padding: 0;
     }
-}
-
-
-.mat-display-1 {
-    margin-bottom: 0;
-    color: black;
 }

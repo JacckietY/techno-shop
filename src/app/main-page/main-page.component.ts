@@ -12,8 +12,4 @@ export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  touched () {
-    alert('YOU haVE TOUCHED ME !!!');
-  }
-
 }
