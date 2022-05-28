@@ -1,12 +1,27 @@
-<mat-toolbar>
-    <div class="mat-display-1">Techno-Shop</div>
-    <button mat-stroked-button class="_catalogue_btn"> Каталоґ </button>
+<div class="container">
+    <mat-toolbar>
+        <div class="mat-display-1">Techno-Shop</div>
+        <button mat-stroked-button class="_catalogue_btn"> Каталоґ </button>
+    
+        <button mat-stroked-button class="_search_btn">
+            <mat-icon> search </mat-icon>
+        </button>
+        <mat-form-field floatLabel="never">
+            <mat-label> Пошук </mat-label>
+            <input matInput>
+        </mat-form-field>
+        <button mat-stroked-button class="_delete_btn">
+            <mat-icon> close </mat-icon>
+        </button>
+    
+        <button mat-stroked-button class="_login_btn"> Увійти </button>
+        <button mat-stroked-button class="_cart_btn"> Кошик </button>
+        <button mat-stroked-button class="_user_btn">
+            <mat-icon> person </mat-icon>
+        </button>
+    </mat-toolbar>
 
-    <button mat-stroked-button class="_search_btn">
-        <mat-icon> search </mat-icon>
-    </button>
-    <mat-form-field floatLabel="never">
-        <mat-label> Пошук </mat-label>
-        <input matInput>
-    </mat-form-field>
-</mat-toolbar>
+    <div class="banner">
+        
+    </div>
+</div>
