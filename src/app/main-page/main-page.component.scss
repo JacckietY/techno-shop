@@ -1,0 +1,39 @@
+@import 'D:/University/Diplom/techno-shop/src/_variables.scss';
+
+
+h1 {
+    color: black;
+}
+
+button {
+    color: $ButtonPrimaryColor;
+}
+
+mat-toolbar {
+    padding-top: 24px;
+    padding-left: 64px;
+    padding-right: 32px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+    & button {
+        margin-left: 12px;
+        border: 1px solid $ButtonPrimaryColor;
+    }
+
+    & mat-form-field {
+        margin-left: 64px;
+        width: 40%;
+    }
+
+    & ._catalogue_btn {
+        margin-left: 32px;
+    }
+}
+
+
+.mat-display-1 {
+    margin-bottom: 0;
+    color: black;
+}
