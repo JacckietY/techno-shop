@@ -22,6 +22,37 @@
     </mat-toolbar>
 
     <div class="banner">
-        <img src="../../assets/img/main-slider-2.jpg" style="width: 100%" alt="">
+        <app-img-slider></app-img-slider>
     </div>
+
+    <div class="product_text">
+        <p>Найгарячіші пропозиції</p>
+    </div>
+
+    <div class="product_cards_list">
+        <app-product-card></app-product-card>
+        <app-product-card></app-product-card>
+        <app-product-card></app-product-card>
+        <app-product-card></app-product-card>
+    </div>
+    <br>
+
+    <div class="subscr_text">
+        <p>
+            <span>Підписуйтесь на наші новини та отримуйте найсвіжішу інформацію</span>
+        </p>
+        <p>
+            <span> щодо новинок в світі гаджетів та електроніки!</span>
+        </p>
+    </div>
+    <div class="mailsub">
+        <button mat-raised-button> Підписатися </button>
+        <mat-form-field color="accent" appearance="outline">
+            <mat-label> Введіть пошту </mat-label>
+            <input matInput>
+        </mat-form-field>
+    </div>
+
+    <app-footer></app-footer>
+    
 </div>

@@ -15,6 +15,8 @@ import { SigninPopupComponent } from './base-components/signin-popup/signin-popu
 
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { ImgSliderComponent } from './base-components/img-slider/img-slider.component';
+import { NguCarouselModule } from '@ngu/carousel';
+import { FooterComponent } from './base-components/footer/footer.component';
 
 
 
@@ -28,14 +30,16 @@ import { ImgSliderComponent } from './base-components/img-slider/img-slider.comp
     AccountPageComponent,
     LoginPopupComponent,
     SigninPopupComponent,
-    ImgSliderComponent
+    ImgSliderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    NguCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

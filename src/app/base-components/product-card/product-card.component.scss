@@ -1,0 +1,35 @@
+@import '../../../variables';
+
+.container {
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
+
+    & .btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    & button {
+        color: $ButtonPrimaryColor;
+        border: 1px solid $ButtonPrimaryColor;
+        margin-left: 8px;
+    }
+}
+
+.card_body {
+    font-size: 1.2em;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    padding-right: 80px;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}

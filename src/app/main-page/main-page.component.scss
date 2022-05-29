@@ -1,8 +1,52 @@
-@import 'D:/University/Diplom/techno-shop/src/_variables.scss';
+@import '../../variables';
 
 
 .container {
     width: 100%;
+
+    & .product_text {
+        margin: 24px 20px;
+        text-align: left;
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+
+    & .product_cards_list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    & .mailsub {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        background-color: rgb(232, 232, 232);
+        color: black;
+        padding: 24px 0;
+
+        & button {
+            background-color: #fff;
+            color: $ButtonPrimaryColor;
+            margin-right: 24px;
+            height: 40px;
+        }
+
+        & mat-form-field {
+            width: 30%;
+            box-sizing: border-box;
+
+            & mat-label {
+                color: black;
+            }
+        }
+    }
+
+    & .subscr_text {
+        margin: 24px 0;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
 }
 
 button {
